@@ -1,0 +1,39 @@
+{
+  "name": "context-sentry",
+  "version": "1.0.0",
+  "description": "Universal AI Context & Token Bloat Profiler. Audit repo context weight, detect token waste, guard against credential ingestion, and sync .agentignore / .cursorignore / .aiderignore.",
+  "type": "module",
+  "main": "./src/index.js",
+  "bin": {
+    "context-sentry": "./bin/context-sentry.js"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "start": "node ./bin/context-sentry.js"
+  },
+  "keywords": [
+    "ai",
+    "tokens",
+    "context-window",
+    "cursor",
+    "aider",
+    "claude-code",
+    "agentignore",
+    "cursorignore",
+    "token-budget",
+    "codebase-audit"
+  ],
+  "author": "IlhamXkyo <xanderilham4@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IlhamXkyo/context-sentry.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IlhamXkyo/context-sentry/issues"
+  },
+  "homepage": "https://github.com/IlhamXkyo/context-sentry#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

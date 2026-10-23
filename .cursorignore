@@ -1,0 +1,45 @@
+# === Build Artifacts & Generated Bundles ===
+dist/
+build/
+out/
+.next/
+.nuxt/
+.output/
+*.min.js
+*.min.css
+*.bundle.js
+*.chunk.js
+*.map
+
+# === Dependency Lockfiles (High Token Waste, Near-Zero AI Value) ===
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+Cargo.lock
+poetry.lock
+composer.lock
+
+# === Test Fixtures & Heavy Snapshots ===
+**/__snapshots__/
+*.snap
+fixtures/**/*.json
+mock-data/**/*.json
+
+# === Raw Vector Graphics & Heavy Media ===
+*.svg
+*.ico
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.pdf
+
+# === Secrets & Environment Exposure Safeguard ===
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+id_rsa
+id_ed25519
